@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>idea-ce</Name>
+        <Packager>
+            <Name>Sebastian Werner</Name>
+            <Email>s.werner_1990@gmx.net</Email>
+        </Packager>
+        <License>Apache 2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
+        <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
+        <Archive type="targz" sha1sum="fc93ea04fc5586a88b4b243fa560ce3b5fb5bc91">https://download-cf.jetbrains.com/idea/ideaIC-2017.2.4-no-jdk.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>idea-ce</Name>
+        <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
+        <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/idea-ce</Path>
+            <Path fileType="data">/usr/bin/idea-ce</Path>
+            <Path fileType="data">/usr/share/applications/idea-ce.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/idea-ce.desktop">idea-ce.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-09-17</Date>
+            <Version>2017.2.4</Version>
+            <Comment>Initial working Idea-CE</Comment>
+            <Name>Sebastian Werner</Name>
+            <Email>s.werner_1990@gmx.net</Email>
+        </Update>
+    </History>
+</PISI>
