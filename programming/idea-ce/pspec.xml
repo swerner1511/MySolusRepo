@@ -30,13 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-09-17</Date>
-            <Version>2017.2.4</Version>
-            <Comment>Initial working Idea-CE</Comment>
+        <Update release="3">
+            <Date>2019-01-03</Date>
+            <Version>2018.3.4</Version>
+            <Comment>Update working Idea-CE</Comment>
             <Name>Sebastian Werner</Name>
             <Email>s.werner_1990@gmx.net</Email>
-        </Update>
+        </Update>   
         <Update release="2">
             <Date>2017-10-20</Date>
             <Version>2017.2.5</Version>
@@ -44,12 +44,12 @@
             <Name>Sebastian Werner</Name>
             <Email>s.werner_1990@gmx.net</Email>
         </Update>
-        <Update release="3">
-            <Date>2019-01-03</Date>
-            <Version>2018.3.4</Version>
-            <Comment>Update working Idea-CE</Comment>
+        <Update release="1">
+            <Date>2017-09-17</Date>
+            <Version>2017.2.4</Version>
+            <Comment>Initial working Idea-CE</Comment>
             <Name>Sebastian Werner</Name>
             <Email>s.werner_1990@gmx.net</Email>
-        </Update>    
+        </Update>
     </History>
 </PISI>
