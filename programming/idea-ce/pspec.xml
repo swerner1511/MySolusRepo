@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
         <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
-        <Archive type="targz" sha1sum="288cd2d0949f9103836f235580ad08f5f0699ef3">https://download-cf.jetbrains.com/idea/ideaIC-2017.2.5-no-jdk.tar.gz</Archive>
+        <Archive type="targz" sha1sum="1a2446ddb2cff1ac5c201882610d83d9fa0cdc9d">https://download-cf.jetbrains.com/idea/ideaIC-2018.3.4-no-jdk.tar.gz</Archive>
     </Source>
     <Package>
         <Name>idea-ce</Name>
@@ -44,5 +44,12 @@
             <Name>Sebastian Werner</Name>
             <Email>s.werner_1990@gmx.net</Email>
         </Update>
+        <Update release="3">
+            <Date>2019-01-03</Date>
+            <Version>2018.3.4</Version>
+            <Comment>Update working Idea-CE</Comment>
+            <Name>Sebastian Werner</Name>
+            <Email>s.werner_1990@gmx.net</Email>
+        </Update>    
     </History>
 </PISI>
